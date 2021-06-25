@@ -1,6 +1,6 @@
 import React from 'react'
 import Stories from "./Stories"
-
+import InputBox from "./InputBox"
 export default function Feed() {
 	return (
 		<div className="flex-grow h-screen pb-44 pt-6 mr-4 xl:mr-40 overflow-y-auto">
@@ -9,6 +9,11 @@ export default function Feed() {
 		      {/* Stories  */}
 		       <Stories /> 
 		      {/* InputBox */}
+
+
+		      <InputBox />
+
+		      
 
 		      {/* Posts */}
 		   </div>
